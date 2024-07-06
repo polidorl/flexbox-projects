@@ -5,7 +5,7 @@
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
-  - [Everything](#Where to find everything)
+  - [Where to find everything](#Where-to-find-everything)
   - [Built with](#built-with)
   - [Technologies](#technologies)
   - [Acknowledgments](#acknowledgments)
@@ -63,7 +63,7 @@ There is also a `style-guide.md` file containing the information, such as color 
  
 Take the Flexbox and CSS GRID In-Depth Course
 Instructor Jordan Alexander
-Excellent instructor.
+Excellent instructor...
 
 
 
