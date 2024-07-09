@@ -8,6 +8,8 @@
 
 --font1: "Open Sans", sans-serif;
 --font2: "Raleway", sans-serif;
+
+--padding-container: 90px 0;
 }
 
 *{
@@ -17,5 +19,40 @@
 
 body{
     font-family: var(--font1);
-    
+  
 }
+.container{
+    width: 90%;
+    max-width: 1200px;
+    /* background-color: #000; */
+    overflow: hidden;
+    padding: var(--padding-container);
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    gap: 1.1em;
+
+    /* outline: 1px solid red; */
+    --padding-container:40px 0;
+}
+
+.nav__logo{
+   width:110px;
+}
+
+.nav__img{
+    width:100%;
+    /* outline: 1px solid red; */
+    display:block;
+}
+.nav__link:first-of-type{
+    margin-left: auto;
+}
+.nav__link{
+    text-decoration: none;
+    color: var(--desaturated-blue);
+    font-family:var(--font2);
+}
+

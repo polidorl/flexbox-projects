@@ -15,8 +15,7 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@400&display=swap"
-    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@400&display=swap" rel="stylesheet">
 
 
   <link rel="stylesheet" href="css/style.css">
@@ -27,17 +26,44 @@
 
 <body>
 
-  <!-- Features
-  Team
-  Sign In
+  <header class="hero">
 
-  All your files in one secure location, accessible anywhere.
+    <nav class="nav container">
+      <figure class="nav__logo">
+        <img src="./images/logo.svg" alt="logo" class="nav__img">
+      </figure>
 
-  Fylo stores your most important files in one secure location. 
-  Access them wherever you need, share and collaborate with friends, 
-  family, and co-workers.
+      <a href="#" class="nav__link">Features</a>
+      <a href="#" class="nav__link">Team</a>
+      <a href="#" class="nav__link">Sign In</a>
+    </nav>
 
-  Get Started
+    <section class="hero__main container">
+      <figure class="hero__picture">
+        <img src="./images/illustration-1.svg" alt="Ilustracion1" class="hero__img">
+      </figure>
+
+
+      <div class="hero__info">
+        <h1 class="hero__tittle">All your files in one secure location, accessible anywhere.</h1>
+
+        <p class="hero__paragraph">
+          Fylo stores your most important files in one secure location.
+          Access them wherever you need, share and collaborate with friends,
+          family, and co-workers.
+        </p>
+
+        <form class="hero__contact">
+          <input type="email" placeholder="Enter your email..." class="hero__input">
+          <input type="submit" value="Get Started" class="hero__input hero__input--cta">
+        </form>
+      </div>
+    </section>
+
+  </header>
+
+  <!--
+  
 
   Stay productive, wherever you are
 
