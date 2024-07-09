@@ -40,6 +40,7 @@ body{
 
 .nav__logo{
    width:110px;
+   padding-left: 12px;
 }
 
 .nav__img{
@@ -55,4 +56,63 @@ body{
     color: var(--desaturated-blue);
     font-family:var(--font2);
 }
+.hero{
+    position: relative;
+    --padding-container: 90px 0 170px;
+}
+.hero::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    background-image: url('../images/bg-curve-mobile.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    left:0;
+    bottom: 0;
+
+}
+.hero__img{
+    width: 100%;
+    display: block;
+    max-width: 400px;
+    margin:0 auto;
+}
+.hero__info{
+    text-align: center;
+    color:var(--very-dark-blue);
+}
+.hero__title{
+    font-size: 1.7rem;
+    font-family: var(--font2);
+    margin-top: 1.8em;
+
+}
+.hero__paragraph{
+    line-height: 1.5;
+    margin:1.5em 0;
+    
+
+}
+.hero__contact{
+
+}
+.hero__input{
+height: 45px;
+border-radius: 6px;
+width: 100%;
+font: inherit;
+border: 1px solid var(--very-dark-blue);
+padding: 20px;
+font-family: var(--font2);
+}
+.hero__input--cta{
+    background-color: var(--bright-blue);
+    color:#fff;
+    border:none;
+    font-weight: 700;
+    margin-top: 1.2em;
+}
+
 
