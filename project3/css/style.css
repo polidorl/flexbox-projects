@@ -1,27 +1,28 @@
-:root{
---light-grayish-blue: hsl(240, 75%, 98%);
---light-gray: hsl(0, 0%, 75%);
---bright-blue: hsl(224, 93%, 58%);
---moderate-cyan: hsl(170, 45%, 43%);
---very-dark-blue: hsl(243, 87%, 12%);
---desaturated-blue: hsl(238, 22%, 44%);
+:root {
+    --light-grayish-blue: hsl(240, 75%, 98%);
+    --light-gray: hsl(0, 0%, 75%);
+    --bright-blue: hsl(224, 93%, 58%);
+    --moderate-cyan: hsl(170, 45%, 43%);
+    --very-dark-blue: hsl(243, 87%, 12%);
+    --desaturated-blue: hsl(238, 22%, 44%);
 
---font1: "Open Sans", sans-serif;
---font2: "Raleway", sans-serif;
+    --font1: "Open Sans", sans-serif;
+    --font2: "Raleway", sans-serif;
 
---padding-container: 90px 0;
+    --padding-container: 90px 0;
 }
 
-*{
+* {
     margin: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: var(--font1);
-  
+
 }
-.container{
+
+.container {
     width: 90%;
     max-width: 1200px;
     /* background-color: #000; */
@@ -29,38 +30,42 @@ body{
     padding: var(--padding-container);
 }
 
-.nav{
+.nav {
     display: flex;
     align-items: center;
     gap: 1.1em;
 
     /* outline: 1px solid red; */
-    --padding-container:40px 0;
+    --padding-container: 40px 0;
 }
 
-.nav__logo{
-   width:110px;
-   padding-left: 12px;
+.nav__logo {
+    width: 110px;
+    padding-left: 12px;
 }
 
-.nav__img{
-    width:100%;
+.nav__img {
+    width: 100%;
     /* outline: 1px solid red; */
-    display:block;
+    display: block;
 }
-.nav__link:first-of-type{
+
+.nav__link:first-of-type {
     margin-left: auto;
 }
-.nav__link{
+
+.nav__link {
     text-decoration: none;
     color: var(--desaturated-blue);
-    font-family:var(--font2);
+    font-family: var(--font2);
 }
-.hero{
+
+.hero {
     position: relative;
     --padding-container: 90px 0 170px;
 }
-.hero::before{
+
+.hero::before {
     content: "";
     position: absolute;
     width: 100%;
@@ -69,50 +74,125 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    left:0;
+    left: 0;
     bottom: 0;
 
 }
-.hero__img{
+
+.hero__img {
     width: 100%;
     display: block;
     max-width: 400px;
-    margin:0 auto;
+    margin: 0 auto;
 }
-.hero__info{
+
+.hero__info {
     text-align: center;
-    color:var(--very-dark-blue);
+    color: var(--very-dark-blue);
 }
-.hero__title{
+
+.hero__title {
     font-size: 1.7rem;
     font-family: var(--font2);
     margin-top: 1.8em;
 
 }
-.hero__paragraph{
+
+.hero__paragraph {
     line-height: 1.5;
-    margin:1.5em 0;
-    
+    margin: 1.5em 0;
+
 
 }
-.hero__contact{
 
+.hero__contact {}
+
+.hero__input {
+    height: 45px;
+    border-radius: 6px;
+    width: 100%;
+    font: inherit;
+    border: 1px solid var(--very-dark-blue);
+    padding: 20px;
+    font-family: var(--font2);
 }
-.hero__input{
-height: 45px;
-border-radius: 6px;
-width: 100%;
-font: inherit;
-border: 1px solid var(--very-dark-blue);
-padding: 20px;
-font-family: var(--font2);
-}
-.hero__input--cta{
+
+.hero__input--cta {
     background-color: var(--bright-blue);
-    color:#fff;
-    border:none;
+    color: #fff;
+    border: none;
     font-weight: 700;
     margin-top: 1.2em;
 }
 
+/*Section productive*/
 
+.productive {
+    background-color: var(--light-grayish-blue);
+    --padding-container: 30px 0 90px;
+}
+.productive__img{
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    display: block;
+}
+.productive__main{
+    margin-top: 6em;
+}
+.productive__title {
+    font-size:1.1rem;
+    text-align: center;
+    color: var(--very-dark-blue);
+    font-family: var(--font2);
+}
+.productive__paragraph{
+    color: var(--desaturated-blue);
+    line-height: 1.5;
+    margin-top: 1.5em;
+    margin-bottom: 1.2em;
+}
+.productive__paragraph:last-of-type{
+    margin:0;
+}
+.productive__cta{
+    display: block;
+    width: max-content;
+    margin: 2em auto 3em;
+    text-decoration: none;
+
+    color: var(--moderate-cyan);
+    border-bottom: 2px solid ;
+    padding-bottom: 4px;
+}
+.productive__arrow{
+    vertical-align: middle;
+    }
+.productive__testimony{
+    width: 95%;
+    max-width: 350px;
+    margin:0 auto;
+    background-color: #fff;
+    padding:2em 1.5em;
+    border-radius: 1em;
+    box-shadow: 0 0 10px -5px rgb(0, 0, 0, .5);
+}
+.productive__quote{
+    width: 25px;
+}
+.productive_review{
+    margin: .5em 0 1.5em;
+    color:var(--very-dark-blue);
+    line-height: 1.5;
+}
+.productive__card{
+    display: flex;
+    align-items: center;
+}
+.productive__person{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 1em;
+}
