@@ -27,6 +27,7 @@ body {
     max-width: 1200px;
     /* background-color: #000; */
     overflow: hidden;
+    margin: 0 auto;
     padding: var(--padding-container);
 }
 
@@ -41,7 +42,7 @@ body {
 
 .nav__logo {
     width: 110px;
-    padding-left: 12px;
+    /* padding-left: 12px; */
 }
 
 .nav__img {
@@ -106,12 +107,13 @@ body {
 }
 
 .hero__contact {
-    width:90%;
+    width: 90%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     gap: 1em;
-    margin-top: 2em;}
+    margin-top: 2em;
+}
 
 .hero__input {
     height: 45px;
@@ -119,13 +121,14 @@ body {
     width: 100%;
     font: inherit;
     border: 1px solid var(--very-dark-blue);
-    padding: 20px;
+    padding: 0 20px;
     font-family: var(--font2);
 }
 
 .hero__input--cta {
     background-color: var(--bright-blue);
     padding: 1em .5em;
+    /**/
     color: #fff;
     border: none;
     font-weight: 700;
@@ -138,65 +141,77 @@ body {
     background-color: var(--light-grayish-blue);
     --padding-container: 30px 0 90px;
 }
-.productive__img{
+
+.productive__img {
     width: 100%;
     max-width: 400px;
     margin: 0 auto;
     display: block;
 }
-.productive__main{
+
+.productive__main {
     margin-top: 6em;
 }
+
 .productive__title {
-    font-size:1.1rem;
+    font-size: 1.1rem;
     text-align: center;
     color: var(--very-dark-blue);
     font-family: var(--font2);
 }
-.productive__paragraph{
+
+.productive__paragraph {
     color: var(--desaturated-blue);
     line-height: 1.5;
     margin-top: 1.5em;
     margin-bottom: 1.2em;
 }
-.productive__paragraph:last-of-type{
-    margin:0;
+
+.productive__paragraph:last-of-type {
+    margin: 0;
 }
-.productive__cta{
+
+.productive__cta {
     display: block;
     width: max-content;
     margin: 2em auto 3em;
     text-decoration: none;
 
     color: var(--moderate-cyan);
-    border-bottom: 2px solid ;
+    border-bottom: 2px solid;
     padding-bottom: 4px;
 }
-.productive__arrow{
+
+.productive__arrow {
     vertical-align: middle;
-    }
-.productive__testimony{
+}
+
+.productive__testimony {
     width: 95%;
     max-width: 350px;
-    margin:0 auto;
+    margin: 0 auto;
     background-color: #fff;
-    padding:2em 1.5em;
+    padding: 2em 1.5em;
     border-radius: 1em;
     box-shadow: 0 0 10px -5px rgb(0, 0, 0, .5);
 }
-.productive__quote{
+
+.productive__quote {
     width: 25px;
 }
-.productive_review{
+
+.productive_review {
     margin: .5em 0 1.5em;
-    color:var(--very-dark-blue);
+    color: var(--very-dark-blue);
     line-height: 1.5;
 }
-.productive__card{
+
+.productive__card {
     display: flex;
     align-items: center;
 }
-.productive__person{
+
+.productive__person {
     width: 50px;
     height: 50px;
     object-fit: cover;
@@ -204,94 +219,193 @@ body {
     margin-right: 1em;
 }
 
-.newletter{
+.newletter {
     background-color: var(--desaturated-blue);
-    color:#fff;
+    color: #fff;
     text-align: center;
 }
-.newsletter__title{
+
+.newsletter__title {
     font-family: var(--font2);
 }
-.newsletter__paragraph{
+
+.newsletter__paragraph {
     line-height: 1.5;
     margin-top: 1.2em;
 }
-.newsletter_form{
-    width:80%;
+
+.newsletter_form {
+    width: 80%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     gap: 1em;
     margin-top: 2em;
-     
+
 }
-.newsletter__input{
+
+.newsletter__input {
     padding: 1em .5em;
     font: inherit;
     font-family: var(--font2);
     border-radius: 3px;
     border: none;
     box-shadow: 0 0 4px rgb(0, 0, 0, .3);
-    
+
 }
-.newsletter__submit{
-    color:#fff;
+
+.newsletter__submit {
+    color: #fff;
     background-color: var(--bright-blue);
-    padding:1em .5em;
+    padding: 1em .5em;
     font: inherit;
     font-family: var(--font2);
-    border-radius: 3px; 
+    border-radius: 3px;
     border: none;
 }
 
-.footer{
+.footer {
     background-color: var(--very-dark-blue);
     color: #fff;
 }
-.footer__container{
+
+.footer__container {
     display: flex;
     flex-direction: column;
     gap: 3em;
 }
-.footer__logo{
+
+.footer__logo {
     display: block;
 }
-.footer__icon{
+
+.footer__icon {
     vertical-align: middle;
     margin-right: .5em;
 }
-.footer__info{
+
+.footer__info {
     font-size: 1.2rem;
 }
-.footer__nav{
+
+.footer__nav {
     display: flex;
     flex-direction: column;
-    gap: 1em;     
+    gap: 1em;
 }
-.footer__link{
+
+.footer__link {
     text-decoration: none;
-    color:#fff;
+    color: #fff;
     font-family: var(--font2);
 }
-.footer__link:hover{
+
+.footer__link:hover {
     text-decoration: underline;
 }
-.footer_social{
+
+.footer_social {
     display: flex;
     width: max-content;
     margin: 0 auto;
     gap: 1.5em;
 }
-.footer__media{
+
+.footer__media {
     border: 1px solid #fff;
-    width:35px;
+    width: 35px;
     height: 35px;
     border-radius: 50%;
     text-decoration: none;
     display: flex;
 }
-.footer__img{
+
+.footer__img {
     width: 20px;
     height: 20px;
     margin: auto;
+}
+
+@media (min-width: 768px) {
+    .hero {
+
+        --padding-container: 90px 0 200px;
+    }
+
+    .hero::before {
+        background-image: url('../images/bg-curve-desktop.svg');
+    }
+
+    .hero__main {
+        display: flex;
+        align-items: center;
+        gap: 1.5em;
+    }
+
+    .hero__img {
+        max-width: none;
+    }
+
+    .hero__info {
+        order: -1;
+        text-align: left;
+    }
+
+    .hero__title {
+        font-size: 2.3rem;
+        margin-top: 0;
+    }
+
+    .hero__contact {
+        display: flex;
+        gap: 1em;
+    }
+
+    .hero__input {
+        min-width: 160px;
+        flex-grow: 1;
+    }
+
+    .hero__input--cta {
+        margin-top: 0;
+        flex-grow: 0;
+        width: 160px
+    }
+
+    .productive__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .productive__picture {
+        width: 45%;
+        order: 1;
+    }
+
+    .productive__img {
+        max-width: none;
+    }
+
+    .productive__main {
+        margin-top: 0;
+        width:52%
+    }
+
+    .productive__title {
+        font-size: 2.1rem;
+        text-align: left;
+    }
+
+    .productive__cta {
+        margin: 2em 0 3em;
+        }
+
+    .productive__testimony {
+         
+        max-width: 420px;
+        margin: 2px;
+    }
+
+    
 }
