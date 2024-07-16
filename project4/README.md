@@ -1,5 +1,4 @@
-
-
+# Project : Clipboard landing page 
 ## Table of contents
 
   - [Overview](#overview)
@@ -17,7 +16,8 @@ This project is a challenge taken from the [Frontend Mentor](https://www.fronten
 
 ## The challenge
 
-My challenge is to build out this order summary card component and get it looking as close to the design as possible.
+- View the optimal layout for the page depending on their device's screen size
+- See hover states for all interactive elements on the page
 
 ### Screenshot
 
@@ -27,7 +27,6 @@ Adding a screenshot of my solution.
 
 ### Links
 
-- Solution URL: [Add solution URL here](https: )
 - Live Site URL: [Add live site URL here](https:// )
 
 ## Where to find everything
@@ -65,7 +64,3 @@ There is also a `style-guide.md` file containing the information, such as color 
 Take the Flexbox and CSS GRID In-Depth Course
 Instructor Jordan Alexander
 Excellent instructor...
-
-
-
-
