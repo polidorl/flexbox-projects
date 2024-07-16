@@ -1,4 +1,4 @@
-# Project : Clipboard landing page 
+# Project name: Clipboard landing page 
 ## Table of contents
 
   - [Overview](#overview)

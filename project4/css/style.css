@@ -69,7 +69,6 @@ body {
     background-color: var(--light-blue);
     box-shadow: 0 0 10px var(--light-blue);
 }
-
 /*track*/
 
 .track__texts {
@@ -172,18 +171,15 @@ body {
 }
 
 /*footer*/
-
 .footer {
     background-color: #f2f2f2;
     text-align: center;
 }
-
 .footer__img {
     display: block;
     width: 100px;
     margin: 0 auto;
 }
-
 .footer__links {
     margin: 4em 0;
     display: flex;
@@ -191,27 +187,21 @@ body {
     gap: 1.5em;
     align-items: center;
 }
-
 .footer__link {
     text-decoration: none;
     color: var(--dark-grayish-blue);
 }
-
 .footer__link:hover {
     text-decoration: underline;
 }
-
 .footer__social {
     display: flex;
     justify-content: center;
     gap: 3em;
-
 }
-
 .footer__media {
     text-decoration: none;
 }
-
 .footer__icon {
     display: block;
 }
@@ -262,7 +252,6 @@ body {
         margin-bottom: 1.5em;
 
     }
-
     .track__picture {
         position: relative;
         width: 50%;
@@ -302,52 +291,43 @@ body {
         line-height: 1.5;
         color: var(--grayish-blue);
     }
-
     /*clipboard*/
 
     .clipboard {
         --padding-container: 20px 0 80px;
 
     }
-
     .clipboard__img {
         max-width: 700px;
     }
-
     .clipboard__offer {
         flex-direction: row;
         gap: 2em;
         justify-content: space-between;
         align-items: baseline;
     }
-
     .clipboard__item {
         flex: 1;
         /*grow:1 shrink:1 basis:0*/
     }
 
     /*brands*/
-
     .brands {
         flex-direction: row;
         justify-content: space-between;
         gap: 2em;
     }
-
     .brands__item {
         min-width: 100px;
         max-width: 130px;
         flex: 1;
     }
-
     /*footer*/
-
     .footer__container {
         display: flex;
         gap: 2em;
         align-items: center;
     }
-
     .footer__img {
         width: 70px;
     }

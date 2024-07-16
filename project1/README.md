@@ -1,4 +1,4 @@
-
+# Project name: landing page with single introductory section  
 
 ## Table of contents
 
